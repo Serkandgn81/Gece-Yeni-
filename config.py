@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "29537460"))
-API_HASH = getenv("API_HASH", "71608547f16a5fc5a0c694500cf16a53")
+API_ID = int(getenv("API_ID", "28259127"))
+API_HASH = getenv("API_HASH", "43d8370ce91498dec1e0b30365f9a22d")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7227577890:AAFd8SupHLUT2yzH2kGXwsAwAzlMV2982cI")
+BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAHkAuxMB3YXgTC0k5LMMr_YJEGp-8hN-Ls")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BAHCtLQAK7TqnrboHWcw9HiZWdh11E-SDsx8Ph3e9wEtAj1W_spscqAdgZut9qCdx6QAle79K4KVav0rMPTg-JFpE1g-umH6qV8lPa5oIHmkfAAUeqw_UXigvILxS2H76xvH0Z_Ey5H-4tgMfnVHmtTBJ5kQqTY9BOLvArbckv8_UT4hhik_CkPxoC1UUHL9UrM8IomB7D3tiPPrQrqiNokSUf9fOUAEMpgdEDaOc6qCwCDOvETQvCs9rGLzr9NsxEsOy3eHI0fwWmfaqRiOVThcuf7DLEq02WHBr7ECRK6bvPGAVlW3AeNsJcXWf46djp54igk_UvcZzLlB9cNJoADoToAf-wAAAAG-sKZGAA")
+STRING1 = getenv("STRING_SESSION", "BAGvMzcAUjCdxEHgTnldHHiRiK7tPfcYP5GVkLH-uOYwg_rqG8wdZh_RIH9HfaNDXF8z_6eBP_3lRSSQ9ESgkvGk-DybaeqKP3pdj3Aml4EPP-gfZr_NnwN9voFtdiyawp42Jyn3oQXiwu4FLcFBbFP941V4nxNbE-UlSWwVhvJxizQgc-fY7N-dqg-1vg3Y8tQiSQkhYu24hB6GPvvGbHa_UY6AGznT9Op9UHd9UysBkzA8nWW1WVErLi90MRUSeoOtwXEhrzLuXWoc-b88NEfOKzDyxWn7BsY6ZLezmIZyRYIFMmC4Xqao-KKZh-2S6j4KO4yksufrRF3aYK8kqpwWLPUgMwAAAAG8XtUSAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -92,21 +92,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
+    "START_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
+    "PING_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 )
-PLAYLIST_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-STATS_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-STREAM_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-YOUTUBE_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
-SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/gdWUHDSFDMntN1wVA"
+PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+STATS_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+STREAM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+YOUTUBE_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 
 
 def time_to_seconds(time):
